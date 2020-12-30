@@ -1,3 +1,3 @@
-module github.com/tallstoat/pbparser
+module github.com/FotiadisM/pbparser
 
-go 1.12
+go 1.15

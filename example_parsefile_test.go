@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/tallstoat/pbparser"
+	"github.com/FotiadisM/pbparser"
 )
 
 // Example code for the ParseFile() API

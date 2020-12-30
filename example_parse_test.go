@@ -8,7 +8,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/tallstoat/pbparser"
+	"github.com/FotiadisM/pbparser"
 )
 
 // Example code for the Parse() API
