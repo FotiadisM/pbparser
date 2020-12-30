@@ -1085,8 +1085,8 @@ func (p *parser) skipUntilNewline() {
 func (p *parser) unread() {
 	if p.loc.column == 0 {
 		p.loc.line--
-		p.loc.column = p.lastColumnRead
 	}
+	p.loc.column = p.lastColumnRead
 	_ = p.br.UnreadRune()
 }
 
